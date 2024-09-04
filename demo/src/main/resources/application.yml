@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-circular-references: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/postgressdb?retryWrites=True
+      auto-index-creation: true
+
+logging.level.org.springframework.security: DEBUG
+
+server:
+  port: 8081
